@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+#op{ width:150px; height:187px;  margin:0 auto; position:relative; background-image:url(QQ%E5%9B%BE%E7%89%8720181017233043.png)}
+label{font-size:22px; color:#666}
+p{ font-size:22px; color:#666}
+a{ display:block; margin:-20px 180px; text-decoration:none; color:#666}
+a:hover{ color:#55BF00}
+.pw-1{display:block ;margin:-20px 380px; text-decoration:none; color:#55BF00}
+span{display:block; color:#666}
+p1{display:block; margin:-30px 0px; color:#666}
+
+</style>
+</head>
+
+<body>
+<form style="position:absolute; left:700px; bottom:400px">
+<p>欢迎&emsp;登陆</p>
+<label>手&emsp;机&emsp;号&emsp;:&emsp;</label> <input type="text" name="username" style="width:270px; height:40px" />
+<br/>
+<label>密&emsp;&emsp;&emsp;码&emsp;:&emsp;</label> <input type="password" name="password" style="width:270px; height:40px" />
+<br/>
+<input type="submit" value="登陆" style="width:270px; height:50px; left:40px; margin:30px 165px;
+                                        background-color:#960; color:#FFF; font-size:18px "/><br/>
+<input type="checkbox" name="checkbox" value="记住我" /><span> 记住我</span>
+ <a  href="#" >忘记密码</a>
+ <a class="pw-1" href="#">注册账号</a>
+ <hr style="width:450px; margin:80px 0px 0px ;"/> 
+  <p1>其他方式登陆</p1>
+  
+</form>
+<div id="op"></div>
+<a ><img src="QQ图片20181018211657.png" /></a>
+</body>
+</html>

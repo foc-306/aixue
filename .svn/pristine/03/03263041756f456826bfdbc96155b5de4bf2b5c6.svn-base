@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <style type="text/css">
+        *{margin:0px;padding:0px;}
+        .butRight{
+            background-color:#dbdbdb;
+            position:fixed;
+            right:10px;
+            bottom:40%;
+            width:55px;
+            height:auto;
+            border-radius:9px 0 0 9px;
+            box-sizing:border-box;
+            z-index: 199;
+        }
+        .butRight ul{
+            list-style:none;
+        }
+        .butRight ul li{
+            width:55px;line-height:60px;text-align:center;
+        }
+        .butRight a{
+            text-decoration:none;
+            color:#666;
+            display:block;
+            padding:0px 0px;
+        }
+        .butRight a:hover{
+            color:#000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="butRight">
+    <ul>
+        <li class="forum" title="论坛">
+            <span class="glyphicon glyphicon-home"></span>
+            <a href="#about">论坛</a>
+        </li>
+        <li class="we" title="关于我们">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <a href="#about">关于我们</a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

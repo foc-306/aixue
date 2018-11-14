@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>爱学-课程</title>
+<meta name="viewport" charset="UTF-8">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<meta name="keywords" content="Bootstrap Responsive Templates, Iphone Compatible Templates, Smartphone Compatible Templates, Ipad Compatible Templates, Flat Responsive Templates"/><link href="css/bootstrap/bootstrap.min.css" rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--<script src="js/jquery.min.js"></script>-->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<style type="text/css">
+		body{background-color: #f5f6f7}
+		.mysql>div{margin-bottom: 20px;}
+		.qianduan>div{margin-bottom: 20px;}
+		.houduan>div{margin-bottom: 20px;}
+		.yidong>div{margin-bottom: 20px;}
+		.tool{margin-bottom: 60px;}
+		.kckuang{margin-bottom:60px;}
+		.kckuang>div{margin-bottom:60px;}
+		.input-group{width: 500px;}
+		.header div ul {
+			background: #333;
+		}
+
+
+	</style>
+
+<!---- start-smoth-scrolling---->
+</head>
+<body>
+	<div class="banner1" id="home">
+
+			<div class="header">
+				<div class="menu">
+                                     <a class="toggleMenu" href="#" style="color:#0facf3;"><span class="glyphicon glyphicon-menu-hamburger" style="font-size:30px;"></span> </a>
+					<ul class="nav" id="nav">
+					<li><a href="index.html">主页</a></li>
+					<li class="active"><a href="about.html" class="active">免费课程</a></li>
+					<li><a href="academics.html">Academics</a></li>
+					<li><a href="admissions.html">Admissions</a></li>
+					<li><a href="courses0.html">学习天地</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					</ul>
+                                  <!----start-top-nav-script---->
+		                      <script type="text/javascript" src="js/responsive-nav.js"></script>
+					<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+		<!----//End-top-nav-script---->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!--/start-text-slider-->
+		
+	 <!--//text-slider-->
+
+	</div>
+	<!--start-about-->
+	<div class="about">
+		<div class="container">
+			<div class="about-main">
+				<div class="col-xs-6 col-md-6"><h3>免费课程</h3></div>
+
+				<div class="col-xs-6 col-md-6 input-group">
+					<input type="text" class="form-control form-control-add" aria-label="..." placeholder="请输入搜索内容">
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							搜索
+						</button>
+					</div>
+				</div>
+
+				<h5>这里有你想要的所有课程</h5>
+				<p>最好的老师，最优秀的课程，最人性化的教学方式，尽在爱学网！</p>
+				<div class="about-text">
+                    <!--<img src="images/st-1.jpg" alt=""焦点轮播图>-->
+					<div class="col-md-4 about-text-left">
+						<div id="carousel-example-generic-3" class="carousel carousel-add slide" data-ride="carousel">
+
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic-3" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic-3" data-slide-to="1"></li>
+								<li data-target="#carousel-example-generic-3" data-slide-to="2"></li>
+							</ol>
+
+
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+                                    <a href="https://www.imooc.com/learn/755"><img src="images/1-240-135.jpg" alt="第一张图片"></a>
+									<div class="carousel-caption">
+                                        css入门
+									</div>
+								</div>
+								<div class="item">
+									<a href="https://www.imooc.com/learn/680"><img src="images/-240-135.jpg" alt="第一张图片"></a>
+									<div class="carousel-caption">
+                                        css-padding
+									</div>
+								</div>
+								<div class="item">
+									<a href="https://www.imooc.com/learn/710"><img src="images/8-240-135.jpg" alt="第一张图片"></a>
+									<div class="carousel-caption">
+                                        css进阶
+									</div>
+								</div>
+							</div>
+
+
+							<a class="left carousel-control carousel-control-one" href="#carousel-example-generic-3" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control carousel-control-one" href="#carousel-example-generic-3" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+
+						<h5>Our web前端工程师</h5>
+						<p>互联网时代最火爆的技术</p>
+						<div class="tool">
+							<a class="tooltips" href="#">
+							<span>更多课程</span></a>
+						</div>
+					</div>
+                    <!--<img src="images/st-1.jpg" alt=""焦点轮播图>-->
+					<div class="col-md-4 about-text-left">
+						<div id="carousel-example-generic-1" class="carousel carousel-add slide" data-ride="carousel">
+
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic-1" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic-1" data-slide-to="1"></li>
+								<li data-target="#carousel-example-generic-1" data-slide-to="2"></li>
+							</ol>
+
+
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<a href="https://www.imooc.com/learn/1052"><img src="images/10-240-135.jpg" alt="第1张图片"></a>
+									<div class="carousel-caption">
+										Git入门
+									</div>
+								</div>
+								<div class="item">
+									<a href="https://www.imooc.com/learn/991"><img src="images/18-240-135.jpg" alt="第2张图片"></a>
+									<div class="carousel-caption">
+										Storm入门
+									</div>
+								</div>
+								<div class="item">
+									<a href="https://www.imooc.com/learn/1043"><img src="images/38-240-135.jpg" alt="第3张图片"></a>
+									<div class="carousel-caption">
+										Kafka流处理平台
+									</div>
+								</div>
+							</div>
+
+
+							<a class="left carousel-control carousel-control-one" href="#carousel-example-generic-1" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control carousel-control-one" href="#carousel-example-generic-1" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+
+						<h5>java工程师</h5>
+						<p>综合就业率排名第一</p>
+						<div class="tool">
+							<a class="tooltips" href="#">
+							<span>更多课程</span></a>
+						</div>
+					</div>
+                    <!--<img src="images/st-1.jpg" alt=""焦点轮播图>-->
+					<div class="col-md-4 about-text-left ">
+						<div id="carousel-example-generic-2" class="carousel carousel-add slide" data-ride="carousel">
+
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
+								<li data-target="#carousel-example-generic-2" data-slide-to="2"></li>
+							</ol>
+
+
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<a href="https://www.imooc.com/learn/1041"><img src="images/00-240-135.jpg" alt="第1张图片"></a>
+									<div class="carousel-caption">
+										Swift之网络常见用语
+									</div>
+								</div>
+								<div class="item">
+									<a href="https://www.imooc.com/learn/1027"><img src="images/300-240-135.jpg" alt="第2张图片"></a>
+									<div class="carousel-caption">
+										iOS深度学习
+									</div>
+								</div>
+								<div class="item">
+									<a href="https://www.imooc.com/learn/948"><img src="images/338-240-135.jpg" alt="第3张图片"></a>
+									<div class="carousel-caption">
+										Weex入门
+									</div>
+								</div>
+							</div>
+
+
+							<a class="left carousel-control carousel-control-one" href="#carousel-example-generic-2" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control carousel-control-one" href="#carousel-example-generic-2" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+
+						<h5>安卓工程师</h5>
+						<p>移动设备份额第一</p>
+						<div class="tool">
+							<a class="tooltips" href="#">
+							<span>更多课程</span></a>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end-about-->
+	<!--start-vision-->
+	<div class="success">
+		<div class="container">
+			<div class="success-main">
+				<div class="col-md-12 success-left">
+					<h3>挑选你喜爱的课程吧！</h3>
+					<!--start-课程分类-->
+					<!--start-前端-->
+					<div class="success-bottom">
+						<div class="success-bottom-left">
+							<h6>前端</h6>
+						</div>
+						<div class="success-bottom-right qianduan">
+							<div class="col-md-2 col-xs-4"><a href="#">HTML/CSS</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">JavaScript</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">Vue.js</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">jQuery</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">bootstrap</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">React.js</a></div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--start-后端-->
+					<div class="success-bottom">
+						<div class="success-bottom-left">
+							<h6>后端</h6>
+						</div>
+						<div class="success-bottom-right houduan">
+							<div class="col-md-2 col-xs-4"><a href="#">JAVA</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">SpringBoot</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">PHP</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">C++</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">C</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">C#</a></div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--start-移动-->
+					<div class="success-bottom">
+						<div class="success-bottom-left">
+							<h6>移动</h6>
+						</div>
+						<div class="success-bottom-right yidong">
+							<div class="col-md-2 col-xs-4"><a href="#">Android</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">iOS</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">WEEX</a></div>
+							<div class="col-md-4 col-xs-4"><a href="#">React native</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#"></a></div>
+							<div class="col-md-2 col-xs-4"><a href="#"></a></div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--start-数据库-->
+					<div class="success-bottom">
+						<div class="success-bottom-left">
+							<h6>数据库</h6>
+						</div>
+						<div class="success-bottom-right mysql">
+							<div class="col-md-2 col-xs-4"><a href="#">MySQL</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">Redis</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">MonGoDB</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">Oracle</a></div>
+							<div class="col-md-4 col-xs-4"><a href="#">SQL server</a></div>
+							<div class="col-md-2 col-xs-4"><a href="#">NoSql</a></div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--start-云计算-->
+                    <div class="success-bottom">
+                        <div class="success-bottom-left">
+                            <h6>云计算</h6>
+                        </div>
+                        <div class="success-bottom-right yidong">
+                            <div class="col-md-2 col-xs-4"><a href="#">大数据</a></div>
+                            <div class="col-md-2 col-xs-4"><a href="#">Hadoop</a></div>
+                            <div class="col-md-2 col-xs-4"><a href="#">Spark</a></div>
+                            <div class="col-md-2 col-xs-4"><a href="#">Hbase</a></div>
+                            <div class="col-md-2 col-xs-4"><a href="#">云计算</a></div>
+                            <div class="col-md-2 col-xs-4"><a href="#">AWS</a></div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+				</div>
+				<!--start-笔记问题-->
+				<!--<div class="col-md-4 success-right">
+					<h3>精彩笔记与问题</h3>
+					<h4>如何学好前端？</h4>
+					<p>先说一说为什么css要引入伪元素和伪类，以下是css2.1 Selectors章节中对伪类与伪元素的描述：
+						CSS introduces the concepts of pseudo-elements and pseudo-classes to permit formatting based on information that lies outside the document tree.
+
+						直译过来就是：css引入伪类和伪元素概念是为了格式化文档树以外的信息。也就是说，伪类和伪元素是用来修饰不在文档树中的部分，比如，一句话中的第一个字母，或者是列表中的第一个元素。下面分别对伪类和伪元素进行解释。
+
+						伪类用于当已有元素处于的某个状态时，为其添加对应的样式，这个状态是根据用户行为而动态变化的。比如说，当用户悬停在指定的元素时，我们可以通过:hover来描述这个元素的状态。虽然它和普通的css类相似，可以为已有的元素添加样式，但是它只有处于dom树无法描述的状态下才能为元素添加样式，所以将其称为伪类。
+
+						伪元素用于创建一些不在文档树中的元素，并为其添加样式。比如说，我们可以通过:before来在一个元素前增加一些文本，并为这些文本添加样式。虽然用户可以看到这些文本，但是这些文本实际上不在文档树中。
+
+						作者：向建峰_Javan
+						链接：https://www.imooc.com/article/254506
+						来源：慕课网
+						本文原创发布于慕课网</p>
+					<h6>css中的伪元素，你弄懂了吗？</h6>
+					<p>Curabitur dictum ultricies scelerisque. Praesent pretium sodales orci, sit amet posuere odio feugiat ut. Nullam pellentesque pulvinar elementum. Vestibulum commodo augue nisl, ac porttitor nibh tincidunt in.</p>
+					<h6>Values</h6>
+					<ul>
+						<li><a href="#">In faucibus orciluctus</a></li>
+						<li><a href="#">Aenean nonummy hendrerit</a></li>
+						<li><a href="#">Vestibulum congue ut porta</a></li>
+						<li><a href="#">nascetur ridiculus mus</a></li>
+						<li><a href="#">Pellentesque sed dolor</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>-->
+				<div class="kckuang" id="kecheng">
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+					<div class="col-md-3 col-xs-12"><a href="#"><img src="images/1.jpg"></a></div>
+				</div>
+				<!--分页-->
+				<div class="fanye" style="padding-left:450px">
+					<nav aria-label="Page navigation">
+						<ul class="pagination">
+							<li>
+								<a href="#" aria-label="Previous">
+									<span aria-hidden="true">&laquo;</span>
+								</a>
+							</li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li>
+								<a href="#" aria-label="Next">
+									<span aria-hidden="true">&raquo;</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end-vision-->
+	<!--start-footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-main">
+				<div class="col-md-6 footer-left">
+					<ul>
+						<li><a href="#"><span class="fb"> </span></a></li>
+						<li><a href="#"><span class="twit"> </span></a></li>
+						<li><a href="#"><span class="in"> </span></a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 footer-right">
+					<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+					<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!--end-footer-->
+<script>
+	//模拟课程数据
+    var kcshuju=[
+        {name:"java开发1",img:"images/00300-240-135.jpg",href:"#"},
+        {name:"java开发2",img:"images/00300-240-135.jpg",href:"#"},
+        {name:"java开发3",img:"images/00300-240-135.jpg",href:"#"},
+        {name:"java开发4",img:"images/00300-240-135.jpg",href:"#"},
+        {name:"java开发5",img:"images/00300-240-135.jpg",href:"#"},
+        {name:"java开发6",img:"images/00300-240-135.jpg",href:"#"},
+        {name:"java开发7",img:"images/00300-240-135.jpg",href:"#"},
+        {name:"java开发8",img:"images/00300-240-135.jpg",href:"#"},
+        {name:"java开发9",img:"images/00300-240-135.jpg",href:"#"},
+        {name:"java开发10",img:"images/00300-240-135.jpg",href:"#"},
+        {name:"java开发11",img:"images/00300-240-135.jpg",href:"#"},
+        {name:"java开发12",img:"images/00300-240-135.jpg",href:"#"},
+    ];
+    var kcshuju2=[
+        {name:"html入门1",img:"images/1.jpg",href:"#"},
+		{name:"html入门2",img:"images/1.jpg",href:"#"},
+        {name:"html入门3",img:"images/1.jpg",href:"#"},
+        {name:"html入门4",img:"images/1.jpg",href:"#"},
+        {name:"html入门5",img:"images/1.jpg",href:"#"},
+        {name:"html入门6",img:"images/1.jpg",href:"#"},
+        {name:"html入门7",img:"images/1.jpg",href:"#"},
+        {name:"html入门8",img:"images/1.jpg",href:"#"},
+        {name:"html入门9",img:"images/1.jpg",href:"#"},
+        {name:"html入门10",img:"images/1.jpg",href:"#"},
+        {name:"html入门11",img:"images/1.jpg",href:"#"},
+        {name:"html入门12",img:"images/1.jpg",href:"#"},
+    ];
+
+    //页面加载完毕
+    $(function(){
+     //绑定div点击事件
+        $(".success-bottom-right>div").click(function () {
+            //点击后执行换课程
+			//清除原来的课程
+            $("#kecheng").html("");
+            //获取课程类型
+			var type=$(this).text();
+            //换上新课程内容
+            var arr = null;
+            var html="";
+			switch (type) {
+				case "HTML/CSS":
+				    //换上新课程内容
+                    arr = kcshuju;
+                    break;
+				default:
+                    //换上新课程内容
+                    arr = kcshuju2;
+
+                break;
+            }
+
+            //循环获取新课程
+            for ( var i = 0; i <arr.length; i++){
+                var data=arr[i];
+                console.log(data);
+                html=html+'<div class="col-md-3 col-xs-12"><a href="'+data.href+'"><img src="'+data.img+'"></a></div>';
+
+            }
+            $("#kecheng").html(html);
+        })
+    });
+</script>
+</body>
+</html>

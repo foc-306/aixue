@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class="banner1" id="home">
+    <div class="container">
+        <div class="header">
+            <div class="menu">
+                <a class="toggleMenu" href="#" style="color:#0facf3;"><span class="glyphicon glyphicon-align-justify" style="font-size:30px;"></span> </a>
+                <ul class="nav" id="nav">
+                    <li><a href="">主页</a></li>
+                    <li class="active"><a href="" class="active">About</a></li>
+                    <li><a href="">Academics</a></li>
+                    <li><a href="">Admissions</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <!----start-top-nav-script---->
+                <script type="text/javascript" src="js/responsive-nav.js"></script>
+                <script type="text/javascript">
+                    jQuery(document).ready(function($) {
+                        $(".scroll").click(function(event){
+                            event.preventDefault();
+                            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                        });
+                    });
+                </script>
+                <!----//End-top-nav-script---->
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <!--/start-text-slider-->
+
+        <!--//text-slider-->
+    </div>
+</div>
+</body>
+</html>

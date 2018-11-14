@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css">
+    <link href="css/toastr.css" rel="stylesheet" type="text/css" />
+    <link href="css/yuan.css" rel="stylesheet" type="text/css" />
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.fr.js"></script>
+    <script src="js/toastr.js"></script>
+
+    <style type="text/css">
+        .slider-banner{
+            color: #fff;
+            font-size: 5rem;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .cd-intro{
+            margin: 5em auto;
+            width: 90%;
+            max-width: 768px;
+            text-align: center;
+        }
+        .cd-headline{
+            line-height: 1.2;
+        }
+
+    </style>
+
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(function(){
+
+//参数设置，若用默认值可以省略以下面代
+
+            toastr.options = {
+
+                "closeButton": false, //是否显示关闭按钮
+
+                "debug": false, //是否使用debug模式
+
+                "positionClass": "toast-top-full-width",//弹出窗的位置
+
+                "showDuration": "300",//显示的动画时间
+
+                "hideDuration": "1000",//消失的动画时间
+
+                "timeOut": "5000", //展现时间
+
+                "extendedTimeOut": "1000",//加长展示时间
+
+                "showEasing": "swing",//显示时的动画缓冲方式
+
+                "hideEasing": "linear",//消失时的动画缓冲方式
+
+                "showMethod": "fadeIn",//显示时的动画方式
+
+                "hideMethod": "fadeOut" //消失时的动画方式
+
+            };
+
+
+
+//成功提示绑定
+
+            $("#success").click(function(){
+
+                toastr.success("祝贺你成功了");
+
+            })
+
+
+
+//信息提示绑定
+
+            $("#info").click(function(){
+
+                toastr.info("这是一个提示信息");
+
+            })
+
+
+
+//敬告提示绑定
+
+            $("#warning").click(function(){
+
+                toastr.warning("警告你别来烦我了");
+
+            })
+
+
+
+//错语提示绑定
+
+            $("#error").click(function(){
+
+                toastr.error("出现错误，请更改");
+
+            })
+
+
+//清除窗口绑定
+
+            $("#clear").click(function(){
+
+                toastr.clear();
+
+            })
+
+        });
+
+
+
+
+
+//练习阶段代码
+        $(document).ready(function(){
+            $("#call").focus(function(){
+                $("#call").blur(function(){
+                    alert("调试");
+                });
+            });
+        });
+
+
+    </script>
+
+
+</head>
+<body>
+
+<input type="button" name="success" id="success" value="成功"/>
+
+<input type="button" name="info" id="info" value="提示"/>
+
+<input type="button" name="warning" id="warning" value="警告"/>
+
+<input type="button" name="error" id="error" value="错误"/>
+
+<input type="button" name="clear" id="clear" value="清除"/>
+
+<input name="call" id="call" placeholder="电话号码"/>
+
+<a href="" id="but1">a标签1</a>
+<a href="" id="but2">a标签2</a>
+<div style="width:100px;height:100px;background-color:#333;"></div>
+
+<button id="color">按钮</button>
+<div style="width:100px;height:100px;background-color:#666;" id="div1"></div>
+
+<div class="slider-banner">
+    <div class="cd-intro">
+        <h1 class="cd-headline clip is-full-width">
+
+									<span class="cd-words-wrapper" style="width: 416px;">
+										<b class="is-hidden">Welcome to <span> Devtheme </span></b>
+										<b class="is-visible">Digital  <span> agency </span></b>
+										<b class="is-hidden">One Page <span>  Parallax </span></b>
+									</span>
+
+        </h1>
+    </div>
+</div>
+
+
+
+
+<div id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+        <div id="ensign-nivoslider" class="slides nivoSlider">
+            <img src="img/slider/slider1.jpg" alt="" title="#slider-direction-1" style="width: 1105px; visibility: hidden;">
+            <img src="img/slider/slider2.jpg" alt="" title="#slider-direction-2" style="width: 1105px; visibility: hidden;">
+            <img src="img/slider/slider3.jpg" alt="" title="#slider-direction-3" style="width: 1105px; visibility: hidden;">
+            <img class="nivo-main-image" src="img/slider/slider3.jpg" style="display: inline; height: 535px;"><div class="nivo-caption" style="display: block;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="slider-content">
+                            <!-- layer 1 -->
+                            <div class="layer-1-1 hidden-xs wow slideInUp animated animated" data-wow-duration="2s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: slideInUp;">
+                                <h2 class="title1">The Best business Information </h2>
+                            </div>
+                            <!-- layer 2 -->
+                            <div class="layer-1-2 wow slideInUp animated animated" data-wow-duration="2s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.1s; animation-name: slideInUp;">
+                                <h1 class="title2">Helping Business Security  &amp; Peace of Mind for Your Family</h1>
+                            </div>
+                            <!-- layer 3 -->
+                            <div class="layer-1-3 hidden-xs wow slideInUp animated animated" data-wow-duration="2s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: slideInUp;">
+                                <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
+                                <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><div class="nivo-directionNav"><a class="nivo-prevNav">Prev</a><a class="nivo-nextNav">Next</a></div><div class="nivo-slice" name="0" style="left: 0px; width: 74px; height: 535px; opacity: 1; overflow: hidden; top: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-0px;"></div><div class="nivo-slice" name="1" style="left: 74px; width: 74px; height: 535px; opacity: 1; overflow: hidden; bottom: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-74px;"></div><div class="nivo-slice" name="2" style="left: 148px; width: 74px; height: 535px; opacity: 1; overflow: hidden; top: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-148px;"></div><div class="nivo-slice" name="3" style="left: 222px; width: 74px; height: 535px; opacity: 1; overflow: hidden; bottom: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-222px;"></div><div class="nivo-slice" name="4" style="left: 296px; width: 74px; height: 535px; opacity: 1; overflow: hidden; top: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-296px;"></div><div class="nivo-slice" name="5" style="left: 370px; width: 74px; height: 535px; opacity: 1; overflow: hidden; bottom: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-370px;"></div><div class="nivo-slice" name="6" style="left: 444px; width: 74px; height: 535px; opacity: 1; overflow: hidden; top: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-444px;"></div><div class="nivo-slice" name="7" style="left: 518px; width: 74px; height: 535px; opacity: 1; overflow: hidden; bottom: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-518px;"></div><div class="nivo-slice" name="8" style="left: 592px; width: 74px; height: 535px; opacity: 1; overflow: hidden; top: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-592px;"></div><div class="nivo-slice" name="9" style="left: 666px; width: 74px; height: 535px; opacity: 1; overflow: hidden; bottom: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-666px;"></div><div class="nivo-slice" name="10" style="left: 740px; width: 74px; height: 535px; opacity: 1; overflow: hidden; top: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-740px;"></div><div class="nivo-slice" name="11" style="left: 814px; width: 74px; height: 535px; opacity: 1; overflow: hidden; bottom: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-814px;"></div><div class="nivo-slice" name="12" style="left: 888px; width: 74px; height: 535px; opacity: 1; overflow: hidden; top: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-888px;"></div><div class="nivo-slice" name="13" style="left: 962px; width: 74px; height: 535px; opacity: 1; overflow: hidden; bottom: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-962px;"></div><div class="nivo-slice" name="14" style="left: 1036px; width: 69px; height: 535px; opacity: 1; overflow: hidden; top: 0px;"><img src="img/slider/slider3.jpg" style="position:absolute; width:1105px; height:auto; display:block !important; top:0; left:-1036px;"></div></div><div class="nivo-controlNav"><a class="nivo-control" rel="0">1</a><a class="nivo-control" rel="1">2</a><a class="nivo-control active" rel="2">3</a></div>
+
+        <!-- direction 1 -->
+        <div id="slider-direction-1" class="slider-direction slider-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="slider-content">
+                            <!-- layer 1 -->
+                            <div class="layer-1-1 hidden-xs wow slideInDown animated" data-wow-duration="2s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: slideInDown;">
+                                <h2 class="title1">The Best Business Information </h2>
+                            </div>
+                            <!-- layer 2 -->
+                            <div class="layer-1-2 wow slideInUp animated" data-wow-duration="2s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.1s; animation-name: slideInUp;">
+                                <h1 class="title2">We're In The Business Of Helping You Start Your Business</h1>
+                            </div>
+                            <!-- layer 3 -->
+                            <div class="layer-1-3 hidden-xs wow slideInUp animated" data-wow-duration="2s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: slideInUp;">
+                                <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
+                                <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- direction 2 -->
+        <div id="slider-direction-2" class="slider-direction slider-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="slider-content text-center">
+                            <!-- layer 1 -->
+                            <div class="layer-1-1 hidden-xs wow slideInUp animated" data-wow-duration="2s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: slideInUp;">
+                                <h2 class="title1">The Best Business Information </h2>
+                            </div>
+                            <!-- layer 2 -->
+                            <div class="layer-1-2 wow slideInUp animated" data-wow-duration="2s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.1s; animation-name: slideInUp;">
+                                <h1 class="title2">We're In The Business Of Get Quality Business Service</h1>
+                            </div>
+                            <!-- layer 3 -->
+                            <div class="layer-1-3 hidden-xs wow slideInUp animated" data-wow-duration="2s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: slideInUp;">
+                                <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
+                                <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- direction 3 -->
+        <div id="slider-direction-3" class="slider-direction slider-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="slider-content">
+                            <!-- layer 1 -->
+                            <div class="layer-1-1 hidden-xs wow slideInUp animated" data-wow-duration="2s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: slideInUp;">
+                                <h2 class="title1">The Best business Information </h2>
+                            </div>
+                            <!-- layer 2 -->
+                            <div class="layer-1-2 wow slideInUp animated" data-wow-duration="2s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.1s; animation-name: slideInUp;">
+                                <h1 class="title2">Helping Business Security  &amp; Peace of Mind for Your Family</h1>
+                            </div>
+                            <!-- layer 3 -->
+                            <div class="layer-1-3 hidden-xs wow slideInUp animated" data-wow-duration="2s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: slideInUp;">
+                                <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
+                                <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

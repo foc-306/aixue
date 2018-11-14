@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>安全中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="Bootstrap Responsive Templates, Iphone Compatible Templates, Smartphone Compatible Templates, Ipad Compatible Templates, Flat Responsive Templates"/>
+    <link href="css/bootstrap/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="css/sidebar.css" rel='stylesheet' type='text/css' />
+    <link href="//at.alicdn.com/t/font_903175_e0rnxjjojr6.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .one > div{
+            height:200px;
+            background-color:#fff;
+            border-radius:4px;
+            border: 1px solid #DAE0E4;
+            box-shadow: 0 1px 2px 0 rgba(158,172,182,.2);
+        }
+        .one > div:hover{
+            background-color:#0facf3;
+        }
+        /*
+        .one > div > div{
+            width:70px;
+            height:70px;
+            border-radius:200px;
+            background-color:#2f6ef6;
+        }
+        */
+       .one i{
+            font-size:50px;
+            color:#0facf3;
+        }
+        .one p{
+            text-align:center;
+            line-height:140px;
+            font-weight:bold;
+            font-size:17px;
+        }
+        .one a{
+            color:#333;
+            font-size:20px;
+            font-weight:bold;
+            text-decoration:none;
+            line-height: 180px;
+            transition:0s;
+        }
+        #a1:hover i{
+           color:#fff;
+        }
+        #a1:hover a{
+            color:#fff;
+        }
+        #a2:hover i{
+            color:#fff;
+        }
+        #a2:hover a{
+            color:#fff;
+        }
+        #a3:hover i{
+            color:#fff;
+        }
+        #a3:hover a{
+            color:#fff;
+        }
+    </style>
+
+
+</head>
+<body style="background-color:#f5f6f7;height:728px;">
+
+<div class="banner1" id="home">
+
+    <div class="header">
+        <div class="menu">
+            <a class="toggleMenu" href="#" style="color:#0facf3;"><span class="glyphicon glyphicon-menu-hamburger" style="font-size:30px;"></span></a>
+            <ul class="nav" id="nav">
+                <li><a href="index.html">主页</a></li>
+                <li><a href="about.html">免费课程</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li class="active"><a href="admissions.html" class="active">Admissions</a></li>
+                <li><a href="courses.html">学习天地</a></li>
+                <li><a href="关于我们/关于我们.html">关于我们</a></li>
+            </ul>
+            <!----start-top-nav-script---->
+            <script type="text/javascript" src="js/responsive-nav.js"></script>
+            <script type="text/javascript">
+                jQuery(document).ready(function($) {
+                    $(".scroll").click(function(event){
+                        event.preventDefault();
+                        $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                    });
+                });
+            </script>
+            <!----//End-top-nav-script---->
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!--/start-text-slider-->
+</div>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="background-image: url();height:300px;"></div>
+            <div class="col-md-12 one">
+                <div class="col-md-3" id="a1">
+                    <div><i class="iconfont icon-lock"></i></div>
+                    <a href="#">密码管理</a>
+                </div>
+                <div class="col-md-3" style="margin-left:117.5px" id="a2">
+                    <div><i class="iconfont icon-chexianceping_anquanpingfen"></i></div>
+                    <a href="score.html">安全评分</a>
+                </div>
+                <div class="col-md-3" style="margin-left:117.5px" id="a3">
+                    <div><i class="iconfont icon-denglujilu"></i></div>
+                    <a href="#">登录记录</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<hr />
+
+</body>
+</html>

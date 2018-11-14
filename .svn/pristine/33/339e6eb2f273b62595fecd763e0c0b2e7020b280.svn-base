@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+
+
+    <style type="text/css">
+        .down {
+            position: absolute;
+            bottom: 100px;
+            left: calc((100% - 50px)/ 2);
+            font-size: 75px;
+            color: #0facf3;
+            z-index: 5;
+            cursor: pointer;
+            animation: bouncing-down 2s infinite;
+        }
+        .fa-angle-double-down:before {
+            content:"\f103"
+        }
+        .fa {
+            display:inline-block;
+            font:normal normal normal 14px/1 FontAwesome;
+            font-size: 70px;
+            text-rendering:auto;
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale
+        }
+
+        @keyframes bouncing-down {
+            0%,100%,20%,50%,80% {
+                transform:translateY(0)
+            }
+            40% {
+                transform:translateY(-30px)
+            }
+            60% {
+                transform:translateY(-15px)
+            }
+        }
+    </style>
+</head>
+<body>
+
+<i class="fa fa-angle-double-down down" aria-hidden="true" onclick="goTo('#features')"></i>
+
+</body>
+</html>

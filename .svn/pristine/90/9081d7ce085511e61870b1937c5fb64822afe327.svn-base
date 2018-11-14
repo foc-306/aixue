@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>爱学-课程</title>
+    <meta name="viewport" charset="UTF-8">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <meta name="keywords" content="Bootstrap Responsive Templates, Iphone Compatible Templates, Smartphone Compatible Templates, Ipad Compatible Templates, Flat Responsive Templates"/><link href="css/bootstrap/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!--<script src="js/jquery.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+    <style type="text/css">
+        body{background-color: #f5f6f7;font-family:Microsoft YaHei;}
+        .header div ul {background: #333;}
+        .top{width: 100%;height: 150px;
+            background-image: url("images/top-1.jpg");
+            background-size:100%;}/*顶端样式*/
+        .top>h1{position: absolute;top: 90px;left: 140px;color: #01AAED}
+        .top img{border-radius: 50%;position: absolute;top: 140px;left: 140px;}
+        #name1{position: absolute;
+            top: 145px;
+            left: 230px;
+            font-size: 1.5em;
+            color:#ec971f;
+        }
+        #job{position: absolute;
+            top: 186px;
+            left: 237px;
+        color: #5d6d7e}
+        .kcdh{
+            width:100%;
+            height:60px;
+            font-size: 1.3em;
+            color:#5d6d7e;
+            background-color: #FFFFFF;
+            box-shadow: 0 4px 8px 0 rgba(24, 27, 30, 0.1);/*阴影*/
+            line-height: 60px;}
+        .kc-2 a:hover{color:red}
+        .all a{text-decoration: none}/*去掉链接下划线*/
+        .kcml{margin-top: 8px;font-size: 0.9em;}
+        .kcml div{
+            min-height:20px;margin-bottom: 8px;
+            padding: 24px 32px 32px;
+            background-color: #FFF;
+            box-shadow: 0 8px 16px 0 rgba(7,17,27,.1);
+            border-radius: 12px;
+            margin-bottom: 8px;
+            line-height: 36px;}/*课程目录中的div样式*/
+        .kcml div a div{background-color: #FFF;height:5px;}
+        .kcml div  a div:hover{background-color:#ed9c28}
+
+    </style>
+
+    <!---- start-smoth-scrolling---->
+</head>
+<body>
+<div class="banner1" id="home">
+
+    <div class="header">
+        <div class="menu">
+            <a class="toggleMenu" href="#" style="color:#0facf3;"><span class="glyphicon glyphicon-menu-hamburger" style="font-size:30px;"></span> </a>
+            <ul class="nav" id="nav">
+                <li><a href="index.html">主页</a></li>
+                <li class="active"><a href="about.html" class="active">免费课程</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="courses0.html">学习天地</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!----start-top-nav-script---->
+            <script type="text/javascript" src="js/responsive-nav.js"></script>
+            <script type="text/javascript">
+                jQuery(document).ready(function($) {
+                    $(".scroll").click(function(event){
+                        event.preventDefault();
+                        $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                    });
+                });
+            </script>
+            <!----//End-top-nav-script---->
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!--/start-text-slider-->
+
+    <!--//text-slider-->
+</div>
+<!--start 顶层-->
+<div class="all">
+    <div class="top">
+        <h1>HTML/CSS新手入门</h1>
+        <img src="images/200220-140-140.jpg" height="80" width="80"/>
+        <p id="name1">Lux·angle</p>
+        <p id="job">前端工程师</p>
+    </div>
+    <!--start 第二层-->
+    <div class="kcdh">
+        <div class="container">
+            <div class="kc-2">
+                <div class="col-md-2 col-xs-2"><a href="#">课程</a></div>
+                <div class="col-md-2 col-xs-2"><a href="#">问答评论</a></div>
+                <div class="col-md-2 col-xs-2"><a href="#">同学笔记</a></div>
+                <div class="col-md-2 col-xs-2"><a href="#">用户评价</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container kcml">
+        <div class="col-md-9">简介：Go语言兴起的原因是因为在现在的网络编程中，可以提供更高的并发能力，更好的性能以及更好的开发效率。而球星库系统是一个常见的数据库类产品，比如：汽车库、商品库、明星库等类似的库类系统。 利用Go语言的优势，课程中详细讲解了如何使用iris和xorm来快速构建一个Web应用，同时一步一步引导大家从0开始来创建和开发一个完整的球星库系统。最后还有丰富的压力测试和性能优化对比，为大家在高性能高并发的技术升级道路上提供助力。</div>
+        <div class="col-md-9">
+            <span style="font-size:1.5em">第1章 课程介绍</span></Br>课程内容的整体介绍以及学习建议。
+            <a href="#">
+                <div>
+                    <span class="glyphicon glyphicon-expand" style="font-size: 2em;color:#d4d4d4"></span>
+                    1-1（课程介绍）
+                </div>
+            </a>
+        </div>
+        <div class="col-md-9">
+            <span style="font-size:1.5em">第2章 课程介绍</span></Br>课程内容的整体介绍以及学习建议。
+            <a href="#">
+                <div>
+                    <span class="glyphicon glyphicon-expand" style="font-size: 2em;color:#d4d4d4"></span>
+                    1-1（课程介绍)</Br>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-9">
+            <span style="font-size:1.5em">第3章 课程介绍</span></Br>课程内容的整体介绍以及学习建议。
+            <a href="#">
+                <div>
+                    <span class="glyphicon glyphicon-expand" style="font-size: 2em;color:#d4d4d4"></span>
+                    1-1（课程介绍）
+                </div>
+            </a>
+        </div>
+        <div class="col-md-9">
+            <span style="font-size:1.5em">第4章 课程介绍</span></Br>课程内容的整体介绍以及学习建议。
+            <a href="#">
+                <div>
+                    <span class="glyphicon glyphicon-expand" style="font-size: 2em;color:#d4d4d4"></span>
+                    1-1（课程介绍）
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

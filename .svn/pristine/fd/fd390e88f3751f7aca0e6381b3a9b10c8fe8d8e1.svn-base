@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>爱学网</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="keywords" content="Bootstrap Responsive Templates, Iphone Compatible Templates, Smartphone Compatible Templates, Ipad Compatible Templates, Flat Responsive Templates"/>
+        <link href="../css/bootstrap/bootstrap.min.css" rel='stylesheet' type='text/css'>
+        <link href="../css/style.css" rel='stylesheet' type='text/css' />
+        <link href="../css/sidebar.css" rel='stylesheet' type='text/css' />
+
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+		<style type="text/css">
+			#image_box ul{list-style: none; width:100%;display: flex;}
+			#image_box ul li{display:inline-block;height:290px;width: 30%;margin:20px 20px;overflow: hidden;}
+			#image_box ul li img{height:100%;width:100%;}
+			.image_pic span{position:relative;top:-4px;background-color:#ddd;color:black;transition: top 2s;font-size:25px;font-weight: 400;display:block;height: 80px;}
+			.image_pic:hover .image_text{top:-70px;transition: top 1s;}
+		</style>
+	</head>
+	<body>
+    <div class="header">
+        <div class="menu">
+            <a class="toggleMenu" href="#" style="color:#0facf3;"><span class="glyphicon glyphicon-menu-hamburger" style="font-size:30px;"></span> </a>
+            <ul class="nav" id="nav">
+                <li><a href="../index.html">主页</a></li>
+                <li><a href="../about.html">免费课程</a></li>
+                <li><a href="../academics.html">Academics</a></li>
+                <li><a href="../admissions.html">Admissions</a></li>
+                <li><a href="../courses.html">学习天地</a></li>
+                <li class="active"><a href="contact.html" class="active">讲师资料</a></li>
+            </ul>
+            <!----start-top-nav-script---->
+            <script type="text/javascript" src="js/responsive-nav.js"></script>
+            <script type="text/javascript">
+                jQuery(document).ready(function($) {
+                    $(".scroll").click(function(event){
+                        event.preventDefault();
+                        $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                    });
+                });
+            </script>
+            <!----//End-top-nav-script---->
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+
+
+		
+		<div id="image_box">
+			<ul>
+				<li class="image_pic">
+					<img src="../images/7.jpg" >
+				</li>
+				<li class="image_pic">
+					<img src="../images/2.jpg" >
+					<span class="image_text">Quinn<br>Python工程师</span>
+				</li>
+				<li class="image_pic">
+					<img src="../images/3.png" >
+					<span class="image_text">Wendy<br>JAVA开发工程师</span>
+				</li>
+			</ul>
+			<ul>
+				<li class="image_pic">
+					<img src="../images/5.jpg" >
+					<span class="image_text">Maxwell<br>页面重构师</span>
+				</li>
+				<li class="image_pic">
+					<img src="../images/6.jpg" >
+					<span class="image_text">Lucia<br>全栈工程师</span>
+				</li>
+				<li class="image_pic">
+					<img src="../images/1.png" >
+					<span class="image_text">Ash<br>嵌入式工程师</span>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
+

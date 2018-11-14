@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+
+
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-xs-12">
+            <h1>The all-in-one software for freelancers</h1>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-1">
+                    <h2><i class="fa fa-check-square-o"></i> Invoices</h2>
+                </div>
+                <div class="col-sm-6 col-xs-5">
+                    <h2><i class="fa fa-check-square-o"></i> Clients</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-0 col-xs-6 col-xs-offset-1">
+                    <h2><i class="fa fa-check-square-o"></i> Appointments</h2>
+                </div>
+                <div class="col-sm-6 col-xs-5">
+                    <h2><i class="fa fa-check-square-o"></i> And more!</h2>
+                </div>
+            </div>
+            <p id="banner-description">Keep focus on your profession. Manage your business more easily and quickly with our intuitive and affordable software.</p>
+            <a data-toggle="modal" data-target="#modal-subscription" class="btn-orange" onclick="ga('send', 'event', 'Subscribe', 'click', 'Top banner');">Free 30-day trial</a>
+            <p class="with-love">Mde with <i class="fa fa-heart"></i> in Canada!</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

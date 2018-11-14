@@ -1,0 +1,34 @@
+﻿<!DOCTTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script>
+        function loadXMLDoc()
+        {
+            var xmlhttp;
+            if(widndow.XMLHttpRequest)
+            {
+                xmlhttp=new XMLHttpRequest();//支持
+            }
+            else
+            {
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");//不支持
+            }
+            xmlhttp.onreadystatechange=function()
+            {
+                if(xmlhttp.readyState==4 && xmlhttp.status==200)//4请求以完成，且相应已就绪。200成功
+                {
+                  document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+                }
+            }
+            xmlhttp.open("GET","https://47.94.6.104/svn/aixuewang/txt/20181029.txt",true);
+            xmlhttp.send();
+        }
+    </script>
+</head>
+<body>
+<div id="myDiv"><p>纽约克，牛逼。</p>
+           </div>
+  <button type="button" onclick="loadXMLDoc()">修改</button>
+</body>
+</html>
